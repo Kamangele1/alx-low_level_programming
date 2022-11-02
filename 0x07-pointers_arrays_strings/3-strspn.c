@@ -3,7 +3,7 @@
 /**
  * _strspn - gets the length of aprefix substring
  * @s: the string we look at
- * @accept: thestring we compare to
+ * @accept: the string we compare to
  * Return: unsigned int
  */
 unsigned int _strspn(char *s, char *accept)
@@ -20,7 +20,7 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 		}
-			if (s[i] != accept[i])
+			if (s[i] != accept[j])
 			break;
 	}
 	return (i);
