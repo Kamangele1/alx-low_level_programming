@@ -1,5 +1,6 @@
 #include "lists.h"
-
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * free_dlistint - frees a dlistint_t list
  * @head: pointer to the head of the list
